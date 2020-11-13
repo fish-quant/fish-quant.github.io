@@ -6,6 +6,4 @@ weight: 1
 layout: service
 ---
 
-Python package that allows the analysis of smFISH images. 
-
-
+Python package that allows the analysis of smFISH images.

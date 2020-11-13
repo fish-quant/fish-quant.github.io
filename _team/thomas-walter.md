@@ -9,4 +9,4 @@ promoted: true
 layout: team
 ---
 
-Thomas has ample experience in the development of sophistacted large scale image analysis pipelines in Python (he was one of the lead developer of CellCognition).
+Thomas is the Director of the [Centre for Computational Biology](https://cbio.ensmp.fr/) (CBIO) at Mines ParisTech. He has has ample experience in the development of advanced large scale image analysis pipelines in Python.
