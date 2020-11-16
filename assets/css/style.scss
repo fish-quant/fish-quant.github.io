@@ -7,7 +7,7 @@ $primary: #1f2ce5;
 $secondary: #79b6f8;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #f2f8ff;
 $steel: #5C5A5A;
 
 // Links
@@ -18,7 +18,8 @@ $link-hover-decoration: underline;
 
 // Fonts
 $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Playfair Display', serif, -apple-system;
+//$font-family-heading: 'Playfair Display', serif, -apple-system;
+$font-family-heading: 'Roboto', sans-serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
