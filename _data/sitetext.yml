@@ -9,15 +9,18 @@ services:
     text: "What make FISH-quant an ideal tool for the analysis of smFISH images?"
     section: services
     list:
-      - title: Powered by Python
+      - title: Python
         desc: "Analysis is performed with Python."
         icon: fab fa-python #find more at https://fontawesome.com/icons
-      - title: "Open access, open source"
+      - title: "Open source"
         desc: ">Entire code hosted publically on GitHub."
         icon: fab fa-github       
       - title: "[ImJoy](https://imjoy.io/#/)"
         desc: "ImJoy plugins for user-friendly data processing."
         icon: far fa-smile-wink
+      - title: "Scalable"
+        desc: "Modular workflow suited for high-content applications."
+        icon: fas fa-expand-arrows-alt
 
 portfolio:
     title: "Packages"
