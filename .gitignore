@@ -1,22 +1,8 @@
-_site
+*.gem
+.bundle
 .sass-cache
-.jekyll-metadata
 .jekyll-cache
+_site
 Gemfile.lock
-
-
-# =========================
-# Operating System Files
-# =========================
-# OSX
-# =========================
-.DS_Store
-.AppleDouble
-.LSOverride
-# Icon must ends with two \r.
-Icon
-# Thumbnails
-._*
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+unused
+bootstrap-reference.html
