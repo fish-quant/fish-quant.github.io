@@ -1,42 +1,14 @@
-Agency Jekyll theme
-====================
+# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
+[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+This is the fastest and easiest way to get up and running on GitHub Pages.
+Simply generate your own repository by clicking the [![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
+then replace the sample content with your own and configure for your needs.
 
-# How to use
+If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo.
 
-### Organization of website
+**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
 
-* design controlled by `_include/header.html`
-* which sites are known controlled by `_include/default.html`
-
-### Packages 
-
-Packages projects are in '/_posts'
-
-File-names have to start with numbers in the format of `0060-00-00`. Without these
-numbers files are not rendered. Numbers are also used for the ordering.
-
-Images 
-
-- are in '/img/portfolio'
-- fullsize images should be ratio 12:9, e.g. 600x450
-- Thumbnails should be 4:3
-
-### About
-
-Images are in '/img/about/'
-
-### Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-Images have size 200x00
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)

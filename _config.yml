@@ -1,60 +1,37 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'. 
+# If you change this file, please restart the server process.
 
 # Site settings
-title: FISH-quant
-email: your-email@domain.com
-description: "Analyze smFISH images with Python and ImJoy."
+# are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
+#theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 
-# Team names, titles and social links
-people:
-- name: Arthur IMBERT
-  pic: arthur-imbert
-  position: Lead Developer
-  social:
-    - title: github
-      url: https://github.com/Henley13
-    - title: linkedin
-      url: https://www.linkedin.com/in/arthur-imbert-b6887683/
+url    : "https://fish-quant.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 
-- name: Florian MUELLER
-  pic: florian-mueller
-  position: Project supervision, Developer
-  social:
-    - title: github
-      url: https://github.com/muellerflorian
-    - title: linkedin
-      url: https://www.linkedin.com/in/muellerflorian/
+title      : FISH-quant
+email      : your-email@example.com #this is also the email contact forms will go to
+description: "Collection of tools to analyze and quantify smFISH images!"
+author     : Florian MUELLER
+# logo:     #optional, defaults to site title
+  # path: assets\img\clients\creative-market.jpg
+  # height: 60 #height in px, defaults to 52px
 
-- name: Thomas WALTER
-  pic: thomas-walter
-  position: Project supervision, Developer
-  social:
-    - title: github
-      url: https://github.com/ThomasWalter
-    - title: linkedin
-      url: https://www.linkedin.com/in/thomaswalter4/
+analytics:
+  google: #Google Analytics tracking code here
 
-- name: Wei OUYANG
-  pic: wei-ouyang
-  position: Developer
-  social:
-    - title: github
-      url: https://github.com/oeway
-    - title: linkedin
-      url: https://www.linkedin.com/in/weiouyang/
+collections:
+  portfolio:
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-
-  - title: github
-    url: https://github.com/fish-quant
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: https://github.com/fish-quant
-
-# Build settings
 markdown: kramdown
-permalink: pretty
+
+plugins:
+  - jekyll-remote-theme

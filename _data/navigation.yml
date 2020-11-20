@@ -1,0 +1,15 @@
+nav:
+  - title: "Features"
+    section: services
+
+  - title: "Packages"
+    section: portfolio
+    
+  - title: "Blog"
+    section: timeline
+
+  - title: "Team"
+    section: team
+
+  - title: "Contact"
+    section: contact
