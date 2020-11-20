@@ -1,35 +1,60 @@
-baseurl: ''
-exclude: ['README.md']
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: FISH-quant
+email: your-email@domain.com
+description: "Analyze smFISH images with Python and ImJoy."
+
+
+# Team names, titles and social links
+people:
+- name: Arthur IMBERT
+  pic: arthur-imbert
+  position: Lead Developer
+  social:
+    - title: github
+      url: https://github.com/Henley13
+    - title: linkedin
+      url: https://www.linkedin.com/in/arthur-imbert-b6887683/
+
+- name: Florian MUELLER
+  pic: florian-mueller
+  position: Project supervision, Developer
+  social:
+    - title: github
+      url: https://github.com/muellerflorian
+    - title: linkedin
+      url: https://www.linkedin.com/in/muellerflorian/
+
+- name: Thomas WALTER
+  pic: thomas-walter
+  position: Project supervision, Developer
+  social:
+    - title: github
+      url: https://github.com/ThomasWalter
+    - title: linkedin
+      url: https://www.linkedin.com/in/thomaswalter4/
+
+- name: Wei OUYANG
+  pic: wei-ouyang
+  position: Developer
+  social:
+    - title: github
+      url: https://github.com/oeway
+    - title: linkedin
+      url: https://www.linkedin.com/in/weiouyang/
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+
+  - title: github
+    url: https://github.com/fish-quant
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: https://github.com/fish-quant
+
+# Build settings
+markdown: kramdown
 permalink: pretty
-title: 'FISH-quant'
-
-google_analytics_id: ""
-homepage:
-  show_call_box: true
-logo:
-  mobile: "images/logo/logo.png"
-  desktop: "images/logo/logo.png"
-  desktop_height: "36px"
-footer:
-  copyright_text: 'FISH-quant powered by Python and ImJoy.'
-
-seo:
-  meta_og_title: "FISH-quant"
-  meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif-theme.netlify.app"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "FISH-quant provides a number of analysis workflows for smFISH images."
-
-collections:
-  services:
-    output: true
-  team:
-    output: true
-
-sass:
-  indentWidth: 4
-  style: compact # possible values: nested expanded compact compressed
-  precision: 10
-
-plugins:
-  - jekyll-environment-variables
