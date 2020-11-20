@@ -12,6 +12,6 @@ caption:
 
 Segment cells and nuclei with CellPose with [ImJoy](https://imjoy.io/#/) plugins using the [Cellpose](https://github.com/MouseLand/cellpose) framework.
 
-github: https://github.com/fish-quant/segmentation
+ <i class="fab fa-github" aria-hidden="true"></i>  [https://github.com/fish-quant/segmentation](https://github.com/fish-quant/segmentation)
 
-documentation: https://fish-quant.github.io/segmentation/
+ <i class="fas fa-question-circle" aria-hidden="true"></i>  [https://fish-quant.github.io/segmentation/](https://fish-quant.github.io/segmentation)
