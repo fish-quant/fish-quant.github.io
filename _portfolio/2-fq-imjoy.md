@@ -6,7 +6,7 @@ alt: missing
 
 caption:
   title: fq-imjoy
-  subtitle: ImJoy plugins for the most common workflows.
+  subtitle: ImJoy plugins for the most common smFISH analysis workflow.
   thumbnail: assets/img/portfolio/missing.jpg
 ---
 github: https://github.com/fish-quant/fq-imjoy
