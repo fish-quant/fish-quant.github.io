@@ -16,7 +16,11 @@
         <div class="col-md-3">
           <span class="fa-stack fa-3x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            {% if service.icon contains "/assets" %}
+            <img src="{{ service.icon }}" class="fa-stack-1x fa-inverse" style="margin-top: 2px;margin-left: 15px; padding-left: 10p;border-radius: 50%;width: 92px;">
+            {% else %}
+              <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            {% endif %}
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
