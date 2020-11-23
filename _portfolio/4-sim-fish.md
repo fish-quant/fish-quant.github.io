@@ -9,13 +9,6 @@ caption:
   subtitle: Simulation of smFISH images.
   thumbnail: assets/img/portfolio/missing.jpg
 ---
-Python package performing the smFISH analysis. Requires knowledge of Python to be used. We provide example notebooks for how to use this package, in the repository 
+Python code to simulate realistic 3d smFISH images.
 
-... If you don't want to code, you can also use the ImJoy plugins. 
-
-TODO. Add images.
-
-github: https://github.com/fish-quant/sim-fish
-documentation: https://github.com/fish-quant/sim-fish/blob/develop/README.md
-
-
+[<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/sim-fish)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/sim-fish/blob/develop/README.md)

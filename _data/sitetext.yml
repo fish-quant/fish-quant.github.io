@@ -37,7 +37,7 @@ timeline:
     #start_align: "left"
     events:
       - title: "Developmental Cell paper"
-        year: "August 2020"
+        year: "September 2020"
         desc: "Our paper linking RNA localization and local translation is published in [**Developmental Cell**](https://www.sciencedirect.com/science/article/abs/pii/S1534580720305840). 
               To get an overview, you can also read the nice [**preview**](https://www.sciencedirect.com/science/article/pii/S1534580720307085) from Chin & Lecuyer."
         image: assets/img/timeline/paper_cell-dev.jpg

@@ -9,24 +9,20 @@ caption:
   subtitle: Python code with Jupyter notebook examples.
   thumbnail: assets/img/portfolio/missing.jpg
 ---
-Python package performing the smFISH analysis. Requires knowledge of Python to be used. We provide example notebooks for how to use this package, in the repository 
+Python package performing the smFISH analysis. It consists of several modules that allow to to built your own
+analysis workflow. Requires knowledge of Python. 
 
-If you don't want to code, you can also use the ImJoy plugins. 
+If you don't want to code, we provide for a standard workflow graphical userinterfaces with ImJoy.
 
-<i class="fab fa-github" aria-hidden="true"></i>  [https://github.com/fish-quant/big-fish](https://github.com/fish-quant/big-fish)
+[<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](https://big-fish.readthedocs.io/en/stable/)
 
-<i class="fas fa-question-circle" aria-hidden="true"></i>  [https://github.com/fish-quant/big-fish](https://github.com/fish-quant/big-fish)
+### Juputer notebook examples
 
-### Examples
+To get started quickly, we provide Jupyter notebooks illustrating each provided analysis module. 
 
-We provide examples illustrating the complete analysis workflow with big-fish as Jupyter notebooks. For more information see below
-
-<i class="fab fa-github" aria-hidden="true"></i>  [https://github.com/fish-quant/big-fish-examples](https://github.com/fish-quant/big-fish-examples)
-
-<i class="fas fa-question-circle" aria-hidden="true"></i>  [https://github.com/fish-quant/big-fish-examples/blob/master/README.md](https://github.com/fish-quant/big-fish-examples/blob/master/README.md)
+[<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish-examples)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](ttps://github.com/fish-quant/big-fish-examples/blob/master/README.md)
 
 
 ### TODO
 
 * Add images.
-* Update link to Sphinx documentation once done.
