@@ -20,8 +20,9 @@ If you don't want to code, we provide for a standard workflow graphical userinte
 
 To get started quickly, we provide Jupyter notebooks illustrating each provided analysis module. 
 
-[<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish-examples)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](ttps://github.com/fish-quant/big-fish-examples/blob/master/README.md)
+![screenshot](assets/img/portfolio/big-fish-examples.png "big-fish-examples")
 
+[<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish-examples)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](ttps://github.com/fish-quant/big-fish-examples/blob/master/README.md)
 
 ### TODO
 
