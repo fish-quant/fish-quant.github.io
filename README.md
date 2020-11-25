@@ -4,4 +4,5 @@ Built with Jekyll using the [Agency Jekyll Theme](https://raviriley.github.io/ag
 
 Site is live [**here**](https://fish-quant.github.io/).
 
-![screenshot](screenshot.PNG "Title")
+[![screenshot](screenshot.PNG)](https://fish-quant.github.io/)
+
