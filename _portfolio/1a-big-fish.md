@@ -9,10 +9,7 @@ caption:
   subtitle: Python code with Jupyter notebook examples.
   thumbnail: assets/img/portfolio/missing.jpg
 ---
-Python package performing the smFISH analysis. It consists of several modules that allow to to built your own
-analysis workflow. Requires knowledge of Python. 
-
-If you don't want to code, we provide for a standard workflow graphical userinterfaces with ImJoy.
+Python package performing the smFISH analysis. It consists of several modules that allow to to built your own analysis workflow. Using this packages requires knowledge of Python. 
 
 [<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](https://big-fish.readthedocs.io/en/stable/)
 
@@ -24,6 +21,8 @@ To get started quickly, we provide Jupyter notebooks illustrating each provided 
 
 [<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish-examples)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](ttps://github.com/fish-quant/big-fish-examples/blob/master/README.md)
 
-### TODO
+### ImJoy plugins
 
-* Add images.
+If you don't want to code, we provide for ImJoy plugins for a a standard workflow graphical user interfaces with ImJoy.
+
+[<i class="fab fa-github fa-2x" aria-hidden="true"></i>](https://github.com/fish-quant/fq-imjoy)  [<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>](https://fq-imjoy.readthedocs.io/en/latest/)
