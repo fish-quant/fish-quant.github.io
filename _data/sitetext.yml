@@ -24,7 +24,7 @@ services:
 
 portfolio:
     title: "Packages"
-    text: "We provide several packages for different analysis tasks."
+    text: "We provide several packages for different analysis tasks. <br/><br/> You can try the **Jupyter Notebook examples** here (starting remote server can some time): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/big-fish-examples/master?filepath=notebooks)"
     section: portfolio
     closebutton: "Close Description"
     
