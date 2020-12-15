@@ -25,8 +25,8 @@ services:
 portfolio:
     title: "Packages"
     text: "We provide several packages for different analysis tasks. <br/><br/> 
-           For a first taste, we invite you to check out our interactive documentation [**here**](https://fish-quant.github.io/fq-interactive-docs/#/)<br/><br/>
-           For a more detailed insight, you can try the **Jupyter Notebook examples** (starting remote server can some time): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/big-fish-examples/master?filepath=notebooks)"
+           For a first taste, we invite you to check out our **interactive documentation** [**here**](https://fish-quant.github.io/fq-interactive-docs/#/)<br/><br/>.
+           For more details, you can try the **Jupyter Notebook examples** (starting remote server can some time): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/big-fish-examples/master?filepath=notebooks)"
     section: portfolio
     closebutton: "Close Description"
     
