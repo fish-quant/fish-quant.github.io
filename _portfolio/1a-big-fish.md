@@ -21,7 +21,7 @@ To get started quickly, we provide Jupyter notebooks illustrating each provided 
 
 If you want to **try them without a local installation**, you can do this on mybinder (be a bit patient since starting the remote server can take a bit of time):
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/big-fish-examples/master?filepath=notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/fq-imjoy/binder?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffish-quant%252Fbig-fish-examples%26urlpath%3Dtree%252Fbig-fish-examples%252Fnotebooks%26branch%3Dmaster)
 
 ![screenshot](assets/img/portfolio/big-fish-examples.png "big-fish-examples")
 
