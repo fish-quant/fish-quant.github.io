@@ -38,13 +38,19 @@ timeline:
     # left is the default
     #start_align: "left"
     events:
+      - title: "Nature Comm paper"
+        year: "March 2021"
+        desc: "Our paper studying local translation at centrosomes was published in [**Nature Communications**](https://www.nature.com/articles/s41467-021-21585-7)."
+        image: assets/img/timeline/paper-2021-nat-comm.png
+        align: left
+        alt: 2021-nat-comm-paper
       - title: "Developmental Cell paper"
         year: "September 2020"
         desc: "Our paper linking RNA localization and local translation is published in [**Developmental Cell**](https://www.sciencedirect.com/science/article/abs/pii/S1534580720305840). 
               To get an overview, you can also read the nice [**preview**](https://www.sciencedirect.com/science/article/pii/S1534580720307085) from Chin & Lecuyer."
         image: assets/img/timeline/paper_cell-dev.jpg
-        align: left
-        alt: dev-cell-paper
+        align: right
+        alt: 2020-dev-cell-paper
     end: "2019: <br>first line of <br>big-fish"
 
 about:

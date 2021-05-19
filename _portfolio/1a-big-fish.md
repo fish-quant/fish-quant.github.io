@@ -6,7 +6,7 @@ alt: missing
 
 caption:
   title: big-fish
-  subtitle: Python code with Jupyter notebook examples.
+  subtitle: Python core analysis package with Jupyter notebook demos.
   thumbnail: assets/img/portfolio/big-fish-examples-thumbnail.png
 ---
 [GitHub <i class="fab fa-github fa-1x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish)  [Documentation <i class="fas fa-question-circle fa-1x" aria-hidden="true"></i>](https://big-fish.readthedocs.io/en/stable/)
