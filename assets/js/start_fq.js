@@ -58,7 +58,7 @@ window.startFishQuant = function(url){
     else{
         // inject css style
         const styleSheet = document.createElement("style");
-        styleSheet.innerText = cssPatch;
+        styleSheet.innerText = overlayStyle;
         document.head.appendChild(styleSheet);
 
         // create overlay
