@@ -52,7 +52,7 @@ const overlayStyle = `
 const containerId = 'imjoy-container';
 
 window.startFishQuant = async function(appURL, pluginURL){
-  const imjoyCore = await loadImJoyCore()
+  const imjoyCore = await loadImJoyCore({version: '0.13.78'})
   const imjoy = new imjoyCore.ImJoy({})
   await imjoy.start()
   const api = imjoy.api;
