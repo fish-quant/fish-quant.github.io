@@ -77,6 +77,9 @@ window.startFishQuant = async function(appURL, pluginURL, binderSpec){
       
   }
   document.getElementById('mainNav').style.display = 'none';
+  // make sure we have #/app
+  const hash = appURL.split('#')[1];
+  if(!hash || !hash.includes('#/app')) appURL = appURL + '#/app';
   // make sure we expose the imjoy api
   const query = appURL.split('?')[1];
   if(!query || !query.includes('expose=1')) appURL = appURL + '?expose=1';
