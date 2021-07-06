@@ -77,6 +77,8 @@ window.startFishQuant = async function(appURL, pluginURL, binderSpec){
       
   }
   document.getElementById('mainNav').style.display = 'none';
+  // make sure we expose the imjoy api
+  if(!appURL.split('?')[1].includes('expose=1')) appURL = appURL + '?expose=1';
   const imjoyWindowAPI = await api.createWindow({src: appURL, window_id: containerId});
 
   try{
