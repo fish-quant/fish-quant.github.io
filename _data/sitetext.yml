@@ -5,6 +5,7 @@ header:
     buttonlink: "#portfolio"
 
 imjoy:
+    enable: true
     url: https://deploy-preview-473--imjoy.netlify.app/#/app
     buttontext: Start FISH-quant
 
