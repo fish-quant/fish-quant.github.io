@@ -96,6 +96,7 @@ window.startFishQuant = async function(appURL, pluginURL){
     else{
       const jupyterEngineFactor = (await imjoyWindowAPI.getServices({name: 'Jupyter-Engine'}))[0]
       await jupyterEngineFactor.addEngine()
+      await imjoyWindowAPI.loadPlugin({src: pluginURL})
     }
   }
 }
