@@ -6,8 +6,9 @@ header:
 
 imjoy:
     enable: true
-    appURL: http://127.0.0.1:8000/#/app
-    pluginURL: https://github.com/fish-quant/fq-imjoy/blob/master/imjoy-plugins/FISH-quant.imjoy.html
+    appurl: http://127.0.0.1:8000/#/app
+    pluginurl: https://github.com/fish-quant/fq-imjoy/blob/master/imjoy-plugins/FISH-quant.imjoy.html
+    binderspec: oeway/imjoy-binder-image/master
     buttontext: Start FISH-quant
 
 services:

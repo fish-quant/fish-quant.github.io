@@ -51,7 +51,7 @@ const overlayStyle = `
 
 const containerId = 'imjoy-container';
 
-window.startFishQuant = async function(appURL, pluginURL){
+window.startFishQuant = async function(appURL, pluginURL, binderSpec){
   const imjoyCore = await loadImJoyCore({version: '0.13.78'})
   const imjoy = new imjoyCore.ImJoy({})
   await imjoy.start()
@@ -89,7 +89,7 @@ window.startFishQuant = async function(appURL, pluginURL){
       await engineManager.createEngine({
         name: "MyBinderEngine",
         url: "https://mybinder.org",
-        spec: "oeway/imjoy-binder-image/master",
+        spec: binderSpec || "oeway/imjoy-binder-image/master",
       });
       await imjoyWindowAPI.loadPlugin({src: pluginURL})
     }
