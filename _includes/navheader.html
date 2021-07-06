@@ -45,6 +45,9 @@
 	  {%- if site.data.sitetext.header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
 	  {%- endif -%}
+    {%- if site.data.sitetext.imjoy.enable -%}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" style="margin:10px; cursor:pointer;" onclick="startFishQuant('{{ site.data.sitetext.imjoy.appurl }}', '{{ site.data.sitetext.imjoy.pluginurl }}', '{{ site.data.sitetext.imjoy.binderspec }}')">{{ site.data.sitetext.imjoy.buttontext }}</a>
+	  {%- endif -%}
       </div>
     </div>
   </header>

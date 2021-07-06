@@ -4,6 +4,13 @@ header:
     button: What kind of analysis can I do?
     buttonlink: "#portfolio"
 
+imjoy:
+    enable: true
+    appurl: https://deploy-preview-478--imjoy.netlify.app/
+    pluginurl: https://github.com/fish-quant/fq-imjoy/blob/master/imjoy-plugins/FISH-quant.imjoy.html
+    binderspec: oeway/imjoy-binder-image/master
+    buttontext: Start FISH-quant in ImJoy
+
 services:
     title: "Features"
     text: "What make FISH-quant an ideal tool for the analysis of smFISH images?"
@@ -17,7 +24,7 @@ services:
         icon: fab fa-github       
       - title: "[ImJoy](https://imjoy.io/#/)"
         desc: "ImJoy plugins for user-friendly data processing."
-        icon: /assets/img/imjoy-icon-fill.jpg
+        icon: assets/img/imjoy-icon-fill.jpg
       - title: "Scalable"
         desc: "Modular workflow suited for high-content applications."
         icon: fas fa-expand-arrows-alt

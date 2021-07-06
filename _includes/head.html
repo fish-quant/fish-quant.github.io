@@ -43,5 +43,10 @@
 	}
   </style>
   {% endif %}
+
+  {%- if site.data.sitetext.imjoy.enable -%}
+  <script src="https://lib.imjoy.io/imjoy-loader.js"></script>
+  <script src="assets/js/imjoy_app.js"></script>
+	{%- endif -%}
   
 </head>
