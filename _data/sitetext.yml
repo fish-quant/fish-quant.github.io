@@ -4,6 +4,10 @@ header:
     button: What kind of analysis can I do?
     buttonlink: "#portfolio"
 
+imjoy:
+    url: https://deploy-preview-473--imjoy.netlify.app/#/app
+    buttontext: Start FISH-quant
+
 services:
     title: "Features"
     text: "What make FISH-quant an ideal tool for the analysis of smFISH images?"
