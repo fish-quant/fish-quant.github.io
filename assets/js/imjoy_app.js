@@ -84,14 +84,20 @@ window.startFishQuant = async function(appURL, pluginURL, binderSpec){
   const query = appURL.split('?')[1];
   if(!query || !query.includes('expose=1')) appURL = appURL + '?expose=1';
   const imjoyWindowAPI = await api.createWindow({src: appURL, window_id: containerId});
-
+  let engineManager;
+  try{
+    engineManager = await imjoyWindowAPI.getPlugin("Jupyter-Engine-Manager")
+  }
+  catch(e){
+    engineManager = await imjoyWindowAPI.getPlugin({src: "https://imjoy-team.github.io/jupyter-engine-manager/Jupyter-Engine-Manager.imjoy.html"})
+  }
   try{
     await imjoyWindowAPI.loadPlugin({src: pluginURL})
   }
   catch(e){
     console.error(e)
+
     if(confirm("Failed to load the engine, would you like to try to run FISH-quant with the Binder plugin engine?")){
-      const engineManager = await imjoyWindowAPI.getPlugin("Jupyter-Engine-Manager")
       await engineManager.createEngine({
         name: "MyBinderEngine",
         url: "https://mybinder.org",
