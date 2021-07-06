@@ -53,7 +53,7 @@ const containerId = 'imjoy-container';
 
 window.startFishQuant = async function(appURL, pluginURL){
   const imjoyCore = await loadImJoyCore()
-  const imjoy = new imjoyCore.ImJoy()
+  const imjoy = new imjoyCore.ImJoy({})
   await imjoy.start()
   const api = imjoy.api;
   console.log('ImJoy Core started successfully!')
