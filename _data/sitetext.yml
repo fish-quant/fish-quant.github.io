@@ -22,7 +22,7 @@ services:
         icon: fab fa-github       
       - title: "[ImJoy](https://imjoy.io/#/)"
         desc: "ImJoy plugins for user-friendly data processing."
-        icon: /assets/img/imjoy-icon-fill.jpg
+        icon: assets/img/imjoy-icon-fill.jpg
       - title: "Scalable"
         desc: "Modular workflow suited for high-content applications."
         icon: fas fa-expand-arrows-alt
