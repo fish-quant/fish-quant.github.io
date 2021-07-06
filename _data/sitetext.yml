@@ -9,7 +9,7 @@ imjoy:
     appurl: https://deploy-preview-478--imjoy.netlify.app/
     pluginurl: https://github.com/fish-quant/fq-imjoy/blob/master/imjoy-plugins/FISH-quant.imjoy.html
     binderspec: oeway/imjoy-binder-image/master
-    buttontext: Start FISH-quant
+    buttontext: Start FISH-quant in ImJoy
 
 services:
     title: "Features"
