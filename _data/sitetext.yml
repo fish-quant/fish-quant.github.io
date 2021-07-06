@@ -6,7 +6,7 @@ header:
 
 imjoy:
     enable: true
-    url: http://localhost:8000/#/app
+    url: http://127.0.0.1:8000/#/app
     buttontext: Start FISH-quant
 
 services:
