@@ -67,5 +67,7 @@ window.startFishQuant = function(url){
         container.classList.add("overlay")
         container.innerHTML = `<iframe style="width:100vw;height:100vh;" frameBorder="0" src="${url}"></iframe>`;
         container.style.display = 'block';
+        document.body.appendChild(container);
     }
+    document.getElementById('mainNav').style.display = 'none';
 }
