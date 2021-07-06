@@ -77,6 +77,21 @@ window.startFishQuant = async function(appURL, pluginURL){
       
   }
   document.getElementById('mainNav').style.display = 'none';
-  const imjoyWindow = await api.createWindow({src: appURL, window_id: containerId});
-  await imjoyWindow.loadPlugin({src: pluginURL})
+  const imjoyWindowAPI = await api.createWindow({src: appURL, window_id: containerId});
+
+  try{
+    await imjoyWindowAPI.loadPlugin({src: pluginURL})
+  }
+  catch(e){
+    console.error(e)
+    if(confirm("Failed to load the engine, would you like to try to run FISH-quant with the Binder plugin engine?")){
+      const engineManager = await imjoyWindowAPI.getPlugin("Jupyter-Engine-Manager")
+      await engineManager.createEngine({
+        name: "MyBinderEngine",
+        url: "https://mybinder.org",
+        spec: "oeway/imjoy-binder-image/master",
+      });
+      await imjoyWindowAPI.loadPlugin({src: pluginURL})
+    }
+  }
 }
