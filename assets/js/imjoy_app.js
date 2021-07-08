@@ -54,7 +54,7 @@ const containerId = 'imjoy-container';
 window.startFishQuant = async function(appURL, pluginURL, binderSpec){
   const imjoyCore = await loadImJoyCore({version: '0.13.78'})
   const imjoy = new imjoyCore.ImJoy({})
-  await imjoy.start()
+  await imjoy.start({workspace: 'fq-main'})
   const api = imjoy.api;
   console.log('ImJoy Core started successfully!')
   const elm = document.getElementById(containerId);
@@ -82,7 +82,7 @@ window.startFishQuant = async function(appURL, pluginURL, binderSpec){
   if(!hash || !hash.includes('/app')) appURL = appURL + '#/app';
   // make sure we expose the imjoy api
   const query = appURL.split('?')[1];
-  if(!query || !query.includes('expose=1')) appURL = appURL + '?expose=1';
+  if(!query || !query.includes('expose=1')) appURL = appURL + '?expose=1&quiet=1';
   const imjoyWindowAPI = await api.createWindow({src: appURL, window_id: containerId});
   await new Promise(resolve => setTimeout(resolve, 1000))
   try{
