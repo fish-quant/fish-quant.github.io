@@ -6,7 +6,7 @@ header:
 
 imjoy:
     enable: true
-    appurl: https://deploy-preview-478--imjoy.netlify.app/
+    appurl: https://deploy-preview-473--imjoy.netlify.app/
     pluginurl: https://github.com/fish-quant/fq-imjoy/blob/master/imjoy-plugins/FISH-quant.imjoy.html
     binderspec: oeway/imjoy-binder-image/master
     buttontext: Start FISH-quant in ImJoy
