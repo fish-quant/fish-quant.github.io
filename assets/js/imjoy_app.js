@@ -83,6 +83,9 @@ window.startFishQuant = async function(appURL, pluginURL, binderSpec){
   // make sure we expose the imjoy api
   const query = appURL.split('?')[1];
   if(!query || !query.includes('expose=1')) appURL = appURL + '?expose=1&quiet=1';
+  // append the current query options
+  const currentQeury = location.href.split('?')[1]
+  if(currentQeury) appURL = appURL + '&' + currentQeury;
   const imjoyWindowAPI = await api.createWindow({src: appURL, window_id: containerId});
   await new Promise(resolve => setTimeout(resolve, 1000))
   try{
