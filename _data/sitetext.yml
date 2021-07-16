@@ -13,7 +13,7 @@ imjoy:
 
 services:
     title: "Features"
-    text: "What make FISH-quant an ideal tool for the analysis of smFISH images?"
+    text: "Several features make FISH-quant an ideal tool for the analysis of smFISH images."
     section: services
     list:
       - title: Python
@@ -22,18 +22,24 @@ services:
       - title: "Open source"
         desc: ">Entire code hosted publically on GitHub."
         icon: fab fa-github       
-      - title: "[ImJoy](https://imjoy.io/#/)"
-        desc: "ImJoy plugins for user-friendly data processing."
-        icon: assets/img/imjoy-icon-fill.jpg
       - title: "Scalable"
         desc: "Modular workflow suited for high-content applications."
         icon: fas fa-expand-arrows-alt
+      - title: "[ImJoy](https://imjoy.io/#/)"
+        desc: "ImJoy plugins for user-friendly data processing."
+        icon: /assets/img/imjoy-icon-fill.jpg
 
 portfolio:
     title: "Packages"
-    text: "We provide several packages for different analysis tasks. <br/><br/> 
-           For a first taste, we invite you to check out our **interactive documentation** [**here**](https://fish-quant.github.io/fq-interactive-docs/#/). <br/><br/>
-           For more details, you can try the **Jupyter Notebook examples** (starting remote server can some time): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/fq-imjoy/binder?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffish-quant%252Fbig-fish-examples%26urlpath%3Dtree%252Fbig-fish-examples%252Fnotebooks%26branch%3Dmaster)"
+    text: "We provide several packages for different analysis tasks and levels of experience.
+           
+           - The **Python core analysis package** `big-fish` allows you to custom build your own analysis pipeline tailored to your needs. 
+            We provide detailed **Jupyter noteboook tutorials** explaining the different analysis modules. To get a first feeling, you can them on binder (starting the remote server can take some time): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/fq-imjoy/binder?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffish-quant%252Fbig-fish-examples%26urlpath%3Dtree%252Fbig-fish-examples%252Fnotebooks%26branch%3Dmaster)
+          
+          
+          - If you have not programming experience, we provide a **user interface** powered by ImJoy, providing a user-friendly environment to perform standard analysis including segmentation, detection 
+          of individual and clustered RNA and post-processing. For a first taste, we invite you to check out our **interactive documentation** [**here**](https://fish-quant.github.io/fq-interactive-docs/#/). <br/><br/>
+    "    
     section: portfolio
     closebutton: "Close Description"
     
