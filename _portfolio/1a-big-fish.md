@@ -13,18 +13,12 @@ caption:
 
 **Python package** performing the smFISH analysis. It consists of several modules that allow to to built your own analysis workflow. Using this packages requires knowledge of Python.
 
-### Juputer notebook examples
+### Jupyter notebook examples
 
-[GitHub <i class="fab fa-github fa-1x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish-examples)  [Documentation <i class="fas fa-question-circle fa-1x" aria-hidden="true"></i>](ttps://github.com/fish-quant/big-fish-examples/blob/master/README.md)
+[GitHub <i class="fab fa-github fa-1x" aria-hidden="true"></i>](https://github.com/fish-quant/big-fish-examples)
 
 To get started quickly, we provide Jupyter notebooks illustrating each provided analysis module.
 
 If you want to **try them without a local installation**, you can do this on mybinder (be a bit patient since starting the remote server can take a bit of time):
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fish-quant/fq-imjoy/binder?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffish-quant%252Fbig-fish-examples%26urlpath%3Dtree%252Fbig-fish-examples%252Fnotebooks%26branch%3Dmaster)
-
-### ImJoy plugins
-
-[GitHub <i class="fab fa-github fa-1x" aria-hidden="true"></i>](https://github.com/fish-quant/fq-imjoy)  [Documentation <i class="fas fa-question-circle fa-1x" aria-hidden="true"></i>](https://fq-imjoy.readthedocs.io/en/latest/)
-
-If you don't want to code, we provide for ImJoy plugins for a a standard workflow graphical user interfaces with ImJoy.
