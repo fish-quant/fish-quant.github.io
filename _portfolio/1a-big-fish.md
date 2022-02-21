@@ -1,5 +1,5 @@
 ---
-title: big-fish package
+title: big-fish
 subtitle: Python package with analysis code, including fully documented examples.
 image: assets/img/portfolio/big-fish-examples.png
 alt: missing
